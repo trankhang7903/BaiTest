@@ -18,14 +18,17 @@
 }
 
 .header__navbar-item{
-    color: rgb(150, 102, 99);
     font-size: 14px;
     font-weight: 550;
-    cursor: pointer;
 }
 
 .header__navbar-item:hover{
     opacity: 50%;
+}
+
+.header__navbar-item--link{
+    text-decoration: none;
+    color: rgb(150, 102, 99);
 }
 
 .body__text{
@@ -54,7 +57,6 @@
     flex: row;
     justify-content: space-around;
     margin: 10px;
-
 }
 
 .body__box-item{
@@ -66,10 +68,15 @@
     border-top-left-radius: 25px; 
 }
 
+.body__box-item:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
 .body__box-item--img{
     width: 170px;;
     border-top-left-radius: 25px;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 .body__box-item--content{
